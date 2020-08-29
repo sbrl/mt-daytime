@@ -7,7 +7,7 @@ minetest.register_chatcommand ("day", {
 	params = "",
 	description = "Sets the time to day",
 	func = function ()
-		minetest.set_timeofday(0.5)
+		minetest.set_timeofday(6200 / 27000)
 	end
 })
 
